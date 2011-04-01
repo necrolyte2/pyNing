@@ -4,7 +4,7 @@ Example:
 
 from pyNing import Ning
 
-n = Ning( 'username', 'password', 'http://<network>.ning.com' )
+n = Ning( 'username', 'password', 'http://&lt;network&gt;.ning.com' )
 n.login()
 
 Currently you can only login as this is a base class
